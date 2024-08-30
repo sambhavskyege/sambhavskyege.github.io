@@ -126,11 +126,11 @@ ul li a:hover {
   border-radius: 100%;
 }
 
-/* Quiz-specific styles */
+
 form {
   display: flex;
   flex-direction: column;
-  gap: 2rem; /* Space between questions */
+  gap: 2rem; 
 }
 
 .question {
