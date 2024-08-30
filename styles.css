@@ -254,7 +254,12 @@ ul li a:hover {
 }
 #results{
   transition: 0.3s;
+  color: black;
 }
+#results:hover{
+  color: white;
+}
+
 
 
 
