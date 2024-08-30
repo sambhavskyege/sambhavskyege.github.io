@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles-quiz.css" />
+  <title>Quiz | Kaun Banega Crorepati</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav__content">
+      <div class="logo"><a href="#">Kaun Banega Crorepati</a></div>
+      <label for="check" class="checkbox"><i class="ri-menu-line"></i></label>
+      <input type="checkbox" name="check" id="check" />
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="results.html">Results</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="section__container">
+      <div class="content">
+      
+        <form id="quiz-form">
+          <div class="question">
+            <p>1. Who won the FIFA Worldcup 2022</p>
+            <label><input type="radio" name="q1" value="A"> Portugal</label>
+            <label><input type="radio" name="q1" value="B"> France</label>
+            <label><input type="radio" name="q1" value="C"> Argentina</label>
+            <label><input type="radio" name="q1" value="D"> Spain</label>
+          </div>
+
+          <div class="question">
+            <p>2. 'Django' is known to be the framework of which programming language</p>
+            <label><input type="radio" name="q2" value="A" class='options'> Java</label>
+            <label><input type="radio" name="q2" value="B" class='options'> Python</label>
+            <label><input type="radio" name="q2" value="C" class='options'> JavaScript</label>
+            <label><input type="radio" name="q2" value="D" class='options'> C++</label>
+          </div>
+
+          <!-- Add more questions here -->
+
+          <button type="submit" class="quiz">Submit</button>
+        </form>
+      </div>
+      <div class="image">
+        <img src="logo.png" alt="Quiz" />
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

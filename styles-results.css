@@ -1,0 +1,15 @@
+/* Import base styles */
+@import url("styles.css");
+
+/* Results Page Specific Styles */
+
+
+.results {
+  border-color: #facc15;
+  color: #facc15;
+}
+
+.results:hover {
+  background-color: #facc15;
+  color: #ffffff;
+}

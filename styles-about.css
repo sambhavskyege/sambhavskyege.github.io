@@ -1,0 +1,11 @@
+/* Import base styles */
+@import url("styles.css");
+
+/* About Page Specific Styles */
+section {
+  background-color: #f0f4f8;
+}
+
+.image img {
+  border-radius: 0;
+}
